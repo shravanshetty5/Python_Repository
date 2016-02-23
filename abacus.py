@@ -16,6 +16,6 @@ def my_abacus(value):
                 out = out + '*'
             j = j + 1
             if j == (10 - int(x[i])):
-                out = out + '   '        #When count value equal to 10- integer value, print seperation. this is because reverse counting is implimented. i.e. strating counter from 10
+                out = out + '   '        #When count value equal to 10- integer value, print seperation. (10 - Integer value) because you print from the left.
         i = i + 1
         print out + '|'    #print 1 line. repeat 10 times for each value in the 10 digit abacus
